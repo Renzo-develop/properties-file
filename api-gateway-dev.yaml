@@ -14,7 +14,4 @@ spring:
           uri: http://mstarjeta-devsu:8081
           predicates:
             - Path=/cuentas/**
-        - id: router03
-          uri: http://mstarjeta-devsu:8081
-          predicates:
             - Path=/movimientos/**
